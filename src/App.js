@@ -1,16 +1,20 @@
 import React from 'react';
-import Header from "./component/Header";
-import MainVisual from "./component/MainVisual";
-import GuideSection from "./component/GuideSection";
-import ConsultationSection from "./component/ConsultationSection";
-
+import Header from './component/Header';
+import Neck from './component/Neck';
+import Body from './component/Body';
+import Bottom from './component/Bottom';
+import Footer from './component/Footer';
 
 function App() {
   return (
-      <div>
-        <Header/>
-      </div>
+    <div>
+      <Header />
+      <Neck />
+      <Body />
+      <Bottom />
+      <Footer />
+    </div>
   );
 }
 
-export default App
+export default App;
