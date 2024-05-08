@@ -2,8 +2,13 @@ import React from 'react';
 import './Footer.css';
 
 function Footer() {
+  const handleClick = () => {
+    window.location.href =
+      'https://theperfectworld.com/save-the-polar-bear-2/?gad_source=1&gclid=Cj0KCQjw_-GxBhC1ARIsADGgDjs8HWOS71Zy93okudaJjHVFd6_w0nwGwKN5AMCE6dK09XE1bsuzJlAaAnejEALw_wcB';
+  };
+
   return (
-    <div className="insta">
+    <div className="insta" onClick={handleClick} style={{ cursor: 'pointer' }}>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="50"

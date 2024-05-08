@@ -17,6 +17,7 @@
   font-size: 22;
   font-weight: 700;
   text-align: left;
+  text-decoration: none; /* 밑줄 제거 */
 }
 
 .login-button:hover,

@@ -1,12 +1,17 @@
 import React from 'react';
 import './Header.css'; // 스타일 시트 임포트
+import { Link } from 'react-router-dom';
 
 function Header() {
   return (
     <header>
       <div className="top-bar">
-        <button className="login-button">로그인</button>
-        <button className="signup-button">회원가입</button>
+        <Link to="/login" className="login-button">
+          로그인
+        </Link>
+        <Link to="/signup" className="signup-button">
+          회원가입
+        </Link>
       </div>
       <div className="header-content">
         <div className="logo">
@@ -72,22 +77,22 @@ function Header() {
         <nav className="navigation">
           <ul className="nav-links">
             <li>
-              <a href="/service">서비스 소개</a>
+              <Link to="/service">서비스 소개</Link>
             </li>
             <li>
-              <a href="/process">프로세스</a>
+              <Link to="/process">프로세스</Link>
             </li>
             <li>
-              <a href="/techniques">핵심기술</a>
+              <Link to="/techniques">핵심기술</Link>
             </li>
             <li>
-              <a href="/interview">인터뷰 연습</a>
+              <Link to="/interview">인터뷰 연습</Link>
             </li>
             <li>
-              <a href="/recruiting">채용 일정</a>
+              <Link to="/recruiting">채용 일정</Link>
             </li>
             <li>
-              <a href="/test">시험 일정</a>
+              <Link to="/test">시험 일정</Link>
             </li>
           </ul>
         </nav>
