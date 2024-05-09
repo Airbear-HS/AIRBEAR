@@ -3,6 +3,8 @@ import { Route, Routes } from 'react-router-dom';
 import AppLayout from './Layout/AppLayout';
 import { Home } from './component/Home';
 import Test from './component/Test';
+import Login from './component/Login'; // Import Login
+import Signup from './component/Signup'; // Import Signup
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
             <Route path="/recruiting" element={<Recruiting />} />*/}
           <Route path="/test" element={<Test />} />
           <Route path="/" element={<Home />} />
+          <Route path="/login" element={<Login />} /> // 로그인 경로 추가
+          <Route path="/signup" element={<Signup />} /> // 회원가입 경로 추가
         </Routes>
       </AppLayout>
     </div>
