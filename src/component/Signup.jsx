@@ -5,9 +5,14 @@ function Signup() {
   return (
     <div className="signup-container">
       <form className="signup-form">
-        <input type="name" placeholder="이름" className="login-input" />
-        <input type="text" placeholder="아이디" className="login-input" />
-        <input type="password" placeholder="비밀번호" className="login-input" />
+        <input type="name" placeholder="이름" className="signup-input" />
+        <input type="email" placeholder="이메일" className="signup-input" />
+        <input type="text" placeholder="아이디" className="signup-input" />
+        <input
+          type="password"
+          placeholder="비밀번호"
+          className="signup-input"
+        />
 
         <button type="submit" className="signup-button_real">
           회원가입
