@@ -17,7 +17,7 @@ function Neck() {
       <br />
       <br />
       <br />
-      <div className="text">
+      <div className="text_1">
         AIRBEAR가 제공하는
         <br />
         쉽고 빠른 승무원 합격의 길
