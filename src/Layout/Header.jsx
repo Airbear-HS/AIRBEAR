@@ -62,16 +62,18 @@ function Header() {
           </svg>
         </div>
         <div className="bear">
-          <p
-            style={{
-              fontSize: 40,
-              fontWeight: 700,
-              textAlign: 'left',
-              color: '#00d8ff',
-            }}
-          >
-            AIRBEAR
-          </p>
+          <Link to="/" style={{ textDecoration: 'none' }}>
+            <p
+              style={{
+                fontSize: 40,
+                fontWeight: 700,
+                textAlign: 'left',
+                color: '#00d8ff',
+              }}
+            >
+              AIRBEAR
+            </p>
+          </Link>
         </div>
 
         <nav className="navigation">

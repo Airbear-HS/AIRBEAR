@@ -2,20 +2,25 @@ import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import AppLayout from './Layout/AppLayout';
 import { Home } from './component/Home';
-import Test from './component/Test';
-import Login from './component/Login'; // Import Login
-import Signup from './component/Signup'; // Import Signup
+import Test from './component//Test';
+import Login from './component/Login';
+import Signup from './component/Signup'; // Import Login
+import Service from './component/nav/Service'; // Import Signup
+import Process from './component/nav/Process';
+import Techniques from './component/nav/Techniques';
+import Interview from './component/nav/Interview';
+import Recruiting from './component/nav/Recruiting';
 
 function App() {
   return (
     <div>
       <AppLayout>
         <Routes>
-          {/* <Route path="/service" element={<Service />} />
-            <Route path="/process" element={<Process />} />
-            <Route path="/techniques" element={<Techniques />} />
-            <Route path="/interview" element={<Interview />} />
-            <Route path="/recruiting" element={<Recruiting />} />*/}
+          <Route path="/service" element={<Service />} />
+          <Route path="/process" element={<Process />} />
+          <Route path="/techniques" element={<Techniques />} />
+          <Route path="/interview" element={<Interview />} />
+          <Route path="/recruiting" element={<Recruiting />} />
           <Route path="/test" element={<Test />} />
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} /> // 로그인 경로 추가
