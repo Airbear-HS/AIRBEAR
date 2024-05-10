@@ -1,0 +1,44 @@
+.mountain {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.svg_mountain {
+  width: 150px;
+  height: 170px;
+  flex-shrink: 0;
+  margin-right: 10px; /* svg와 p 사이의 간격 조절 */
+  margin-left: 80px;
+}
+.mountain p {
+  color: #00d8ff;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.mountain_container {
+  margin-bottom: 50px;
+}
+
+.community svg {
+  display: flex;
+  width: 150px;
+  height: 170px;
+  flex-shrink: 0;
+  margin-right: 10px; /* svg와 p 사이의 간격 조절 */
+  margin-left: 90px;
+}
+
+.community p {
+  display: flex;
+  color: #00d8ff;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}

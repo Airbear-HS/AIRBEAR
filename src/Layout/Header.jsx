@@ -1,5 +1,5 @@
 import React from 'react';
-import './Header.css'; // 스타일 시트 임포트
+import './Header.css';
 import { Link } from 'react-router-dom';
 
 function Header() {
@@ -17,8 +17,8 @@ function Header() {
         <div className="logo">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="90"
-            height="90"
+            width="130"
+            height="130"
             viewBox="0 0 90 90"
             fill="none"
           >
@@ -66,7 +66,7 @@ function Header() {
             <p
               style={{
                 fontSize: 40,
-                fontWeight: 700,
+                fontWeight: 800,
                 textAlign: 'left',
                 color: '#00d8ff',
               }}

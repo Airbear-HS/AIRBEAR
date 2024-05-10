@@ -3,9 +3,9 @@ import { Route, Routes } from 'react-router-dom';
 import AppLayout from './Layout/AppLayout';
 import { Home } from './component/Home';
 import Test from './component//Test';
-import Login from './component/Login';
-import Signup from './component/Signup'; // Import Login
-import Service from './component/nav/Service'; // Import Signup
+import Login from './component/member/Login';
+import Signup from './component/member/Signup';
+import Service from './component/nav/Service';
 import Process from './component/nav/Process';
 import Techniques from './component/nav/Techniques';
 import Interview from './component/nav/Interview';
@@ -23,8 +23,8 @@ function App() {
           <Route path="/recruiting" element={<Recruiting />} />
           <Route path="/test" element={<Test />} />
           <Route path="/" element={<Home />} />
-          <Route path="/login" element={<Login />} /> // 로그인 경로 추가
-          <Route path="/signup" element={<Signup />} /> // 회원가입 경로 추가
+          <Route path="/login" element={<Login />} /> //
+          <Route path="/signup" element={<Signup />} />
         </Routes>
       </AppLayout>
     </div>
