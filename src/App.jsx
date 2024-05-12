@@ -5,6 +5,8 @@ import { Home } from './component/Home';
 import Test from './component//Test';
 import Login from './component/member/Login';
 import Signup from './component/member/Signup';
+import Login_Success from './component/member/Login_Success';
+import Login_Fail from './component/member/Login_Fail';
 import Service from './component/nav/Service';
 import Process from './component/nav/Process';
 import Techniques from './component/nav/Techniques';
@@ -23,8 +25,10 @@ function App() {
           <Route path="/recruiting" element={<Recruiting />} />
           <Route path="/test" element={<Test />} />
           <Route path="/" element={<Home />} />
-          <Route path="/login" element={<Login />} /> //
+          <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
+          <Route path="/Login_Success" element={<Login_Success />} />
+          <Route path="/Login_Fail " element={<Login_Fail />} />
         </Routes>
       </AppLayout>
     </div>
