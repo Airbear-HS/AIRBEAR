@@ -14,6 +14,13 @@ import Process from './component/nav/Process';
 import Techniques from './component/nav/Techniques';
 import Interview from './component/nav/Interview';
 import Recruiting from './component/nav/Recruiting';
+import Uniform from './component/main/Uniform';
+import Advice from './component/main/Advice';
+import Health from './component/main/Health';
+import Ordinary from './component/nav/Ordinary';
+import Papago from './component/nav/Papago';
+import Cabin from './component/nav/Cabin';
+import Intern from './component/nav/Intern';
 
 function App() {
   const [loggedIn, setLoggedIn] = useState(false);
@@ -47,6 +54,13 @@ function App() {
           )}
           <Route path="/signup" element={<Signup />} />
           <Route path="/Login_Fail" element={<Login_Fail />} />
+          <Route path="/Uniform" element={<Uniform />} />
+          <Route path="/Advice" element={<Advice />} />
+          <Route path="/Health" element={<Health />} />
+          <Route path="/Ordinary" element={<Ordinary />} />
+          <Route path="/Papago" element={<Papago />} />
+          <Route path="/Cabin" element={<Cabin />} />
+          <Route path="/Intern" element={<Intern />} />
         </Routes>
       </AppLayout>
     </div>
