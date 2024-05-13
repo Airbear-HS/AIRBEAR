@@ -1,15 +1,13 @@
 import React from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
-import Nav_Layout from './Nav_Layout';
-import Ordinary from './Ordinary';
+import './Ordinary.css';
 import Cabin from './Cabin';
 import Papago from './Papago';
 import Intern from './Intern';
-import './Recruiting.css';
 
-function Recruiting() {
+function Ordinary() {
   return (
-    <div>
+    <>
       <div className="cmon">
         <div className="newmember">
           <svg
@@ -54,16 +52,15 @@ function Recruiting() {
             </li>
           </ul>
         </nav>
-        {/* Route 설정을 nav 바로 아래에 배치하여 선택된 링크에 따라 컨텐츠가 변경되도록 합니다. */}
-        <Routes>
-          <Route path="/ordinary" element={<Ordinary />} />
-          <Route path="/cabin" element={<Cabin />} />
-          <Route path="/papago" element={<Papago />} />
-          <Route path="/intern" element={<Intern />} />
-        </Routes>
       </div>
-    </div>
+      <Routes>
+        <Route path="/ordinary" element={<Ordinary />} />
+        <Route path="/cabin" element={<Cabin />} />
+        <Route path="/papago" element={<Papago />} />
+        <Route path="/intern" element={<Intern />} />
+      </Routes>
+    </>
   );
 }
 
-export default Recruiting;
+export default Ordinary;

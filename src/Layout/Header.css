@@ -6,7 +6,8 @@
 }
 
 .login-button,
-.signup-button {
+.signup-button,
+.logout-button {
   margin-left: 10px;
   padding: 5px 15px;
   background-color: #00d8ff;
@@ -21,7 +22,8 @@
 }
 
 .login-button:hover,
-.signup-button:hover {
+.signup-button:hover,
+logout-button:hover {
   background-color: #0056b3;
 }
 
@@ -36,7 +38,7 @@
   display: flex;
   align-items: center;
   gap: -7px; /* 로고 이미지와 텍스트 사이의 간격을 0으로 설정 */
-  margin-left: 2%;
+  margin-left: 10px;
 }
 
 .bear p {
@@ -45,7 +47,7 @@
   color: #00d8ff;
   font-style: normal;
   line-height: normal;
-  margin-left: 0px; /* 로고와 p 사이의 간격을 0으로 조정 */
+  margin-left: -50px; /* 로고와 p 사이의 간격을 0으로 조정 */
 }
 
 .logo img {
