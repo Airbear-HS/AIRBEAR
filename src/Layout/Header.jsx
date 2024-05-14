@@ -12,7 +12,7 @@ function Header() {
         {isLoggedIn ? (
           // 로그인 후의 상단 바
           <>
-            <Link to="/profile" className="profile-button">
+            <Link to="/Mypage" className="mypage-button">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="35"

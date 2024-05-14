@@ -1,5 +1,6 @@
 import React from 'react';
 import './Interview.css'; // CSS 파일을 가져옴
+import { Link } from 'react-router-dom';
 
 const Card = ({ hashtags }) => {
   return (
@@ -18,7 +19,9 @@ const Interview = () => {
     {
       hashtags: [
         <p>Personal Background</p>,
-        '#성격 및 개인적인 경험',
+        <Link to="/Interview_Real" style={{ textDecoration: 'none' }}>
+          #성격 및 개인적인 경험
+        </Link>,
         '#가족과 친구',
         '#집과 동네',
       ],
