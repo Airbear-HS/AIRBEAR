@@ -17,7 +17,6 @@ import Recruiting from './component/nav/Recruiting';
 import Uniform from './component/main/Uniform';
 import Advice from './component/main/Advice';
 import Health from './component/main/Health';
-import Ordinary from './component/nav/Ordinary';
 import Papago from './component/nav/Papago';
 import Cabin from './component/nav/Cabin';
 import Intern from './component/nav/Intern';
@@ -57,7 +56,6 @@ function App() {
           <Route path="/Uniform" element={<Uniform />} />
           <Route path="/Advice" element={<Advice />} />
           <Route path="/Health" element={<Health />} />
-          <Route path="/Ordinary" element={<Ordinary />} />
           <Route path="/Papago" element={<Papago />} />
           <Route path="/Cabin" element={<Cabin />} />
           <Route path="/Intern" element={<Intern />} />
