@@ -59,6 +59,23 @@
   margin-bottom: 10px;
 }
 
+.cards-container h2 {
+  color: #000;
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.cards-container p {
+  color: #00d8ff;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
 .greeting_mine p {
   color: #00a8ff;
   margin-bottom: 10px;

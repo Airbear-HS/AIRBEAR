@@ -14,7 +14,9 @@ function Advice() {
             alt="프로필 이미지"
             className="profile-image"
           />
-          <h2>엄새연 님</h2>
+          <h2>
+            엄새연 <div className="nim">님</div>
+          </h2>
           <p>에어베어와 함께 한지 12 일</p>
         </div>
 
