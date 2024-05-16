@@ -107,6 +107,9 @@
   height: 200px; /* 추가적인 공간을 확보 */
 }
 
+.mypage_intro {
+  margin-left: 20px;
+}
 .mypage_intro h2 {
   margin-right: 350px;
   color: #000;
@@ -115,6 +118,7 @@
   font-style: normal;
   font-weight: 900;
   line-height: normal;
+  white-space: nowrap;
 }
 .mypage_intro p {
   margin-right: 350px;
