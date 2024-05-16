@@ -21,7 +21,7 @@ import Papago from './component/nav/Papago';
 import Cabin from './component/nav/Cabin';
 import Intern from './component/nav/Intern';
 import Interview_Real from './component/nav/Interview_Real';
-import Mypage from './component/nav/Mypage';
+import Mypage_real from './component/member/Mypage_real';
 
 function App() {
   const [loggedIn, setLoggedIn] = useState(false);
@@ -62,7 +62,7 @@ function App() {
           <Route path="/Cabin" element={<Cabin />} />
           <Route path="/Intern" element={<Intern />} />
           <Route path="/Interview_Real" element={<Interview_Real />} />
-          <Route path="/Mypage" element={<Mypage />} />
+          <Route path="/Mypage_real" element={<Mypage_real />} />
         </Routes>
       </AppLayout>
     </div>

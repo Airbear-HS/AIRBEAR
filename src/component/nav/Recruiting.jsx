@@ -1,7 +1,5 @@
 import React from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
-import Nav_Layout from './Nav_Layout';
-
 import Cabin from './Cabin';
 import Papago from './Papago';
 import Intern from './Intern';

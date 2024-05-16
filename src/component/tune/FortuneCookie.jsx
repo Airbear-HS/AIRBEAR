@@ -77,14 +77,14 @@ const FortuneCookie = () => {
       <Container>
         {' '}
         {/* 내용이 들어가는 중앙 컨테이너입니다. */}
-        <Title>🐻널 응원하곰🐻</Title> {/* 포춘 쿠키 타이틀입니다. */}
+        <Title>🐻‍❄️널 응원하곰🐻‍❄️</Title> {/* 포춘 쿠키 타이틀입니다. */}
         {fortune ? ( // fortune 상태가 비어 있지 않으면 무작위 메시지를 표시합니다.
           <FortuneText>{fortune}</FortuneText>
         ) : (
           // fortune 상태가 비어 있으면 쿠키를 깨보라는 메시지를 표시합니다.
-          <FortuneText>🐻</FortuneText>
+          <FortuneText>🐻‍❄️</FortuneText>
         )}
-        <Button onClick={crackCookie}>날 눌러보라곰🐻</Button>{' '}
+        <Button onClick={crackCookie}>눌러보라곰🐻‍❄️</Button>{' '}
         {/* 클릭 시 crackCookie 함수가 호출되는 버튼입니다. */}
       </Container>
     </Section>
