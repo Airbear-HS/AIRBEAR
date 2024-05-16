@@ -64,17 +64,10 @@ export const Button = styled.button`
 export const Main = styled.main`
   width: 100%;
   height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   flex: 1; // 나머지 공간을 모두 차지하도록 설정
   padding: 20px; // 내용과 경계 사이에 간격 추가
-`;
-
-export const MobileMenu = styled.div`
-  display: none;
-  flex-direction: column;
-  margin: 12px 24px;
-  gap: 6px;
-
-  @media (max-width: 764px) {
-    display: flex;
-  }
 `;
