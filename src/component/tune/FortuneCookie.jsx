@@ -77,7 +77,7 @@ const FortuneCookie = () => {
       <Container>
         {' '}
         {/* 내용이 들어가는 중앙 컨테이너입니다. */}
-        <Title>🐻‍❄️널 응원하곰🐻‍❄️</Title> {/* 포춘 쿠키 타이틀입니다. */}
+        <Title>🐻‍❄️에어베어가 응원하곰🐻‍❄️</Title> {/* 포춘 쿠키 타이틀입니다. */}
         {fortune ? ( // fortune 상태가 비어 있지 않으면 무작위 메시지를 표시합니다.
           <FortuneText>{fortune}</FortuneText>
         ) : (

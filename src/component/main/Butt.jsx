@@ -12,7 +12,7 @@ function Butt() {
         <div className="tips_1">
           <div className="first_tip">
             <div className="first_tip_text">
-              <div>👚 퍼스널 컬러 별 유니폼</div>
+              <div>👚 퍼스널 컬러 별 유니폼 👗 🩳 👖 🩱 🥻 👔</div>
             </div>
           </div>
         </div>
