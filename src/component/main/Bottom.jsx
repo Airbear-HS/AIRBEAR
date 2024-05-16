@@ -30,6 +30,10 @@ function Bottom() {
           <br />
           가까워지세요
         </div>
+
+        <div className="rectangle">
+          <p>API넣을 곳</p>
+        </div>
       </div>
     </div>
   );
