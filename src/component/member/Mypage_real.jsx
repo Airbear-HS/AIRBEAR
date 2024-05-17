@@ -1,5 +1,6 @@
 import React from 'react';
 import './Mypage_real.css';
+import Facebear from '../game/Facebear';
 
 function Mypage_real() {
   return (
@@ -73,6 +74,9 @@ function Mypage_real() {
             <br />
             에어베어가 늘 응원하겠습니다!
           </p>
+          <div className="facebear">
+            <Facebear />
+          </div>
         </div>
       </div>
       <div className="hi-card">
