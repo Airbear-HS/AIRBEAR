@@ -23,6 +23,7 @@ import Intern from './component/nav/Intern';
 import Interview_Real from './component/nav/Interview_Real';
 import Mypage_real from './component/member/Mypage_real';
 import Facebear from './component/game/Facebear';
+import Exam from './component/nav/Exam';
 
 function App() {
   const [loggedIn, setLoggedIn] = useState(false);
@@ -65,6 +66,7 @@ function App() {
           <Route path="/Interview_Real" element={<Interview_Real />} />
           <Route path="/Mypage_real" element={<Mypage_real />} />
           <Route path="/Facebear" element={<Facebear />} />
+          <Route path="/Exam" element={<Exam />} />
         </Routes>
       </AppLayout>
     </div>

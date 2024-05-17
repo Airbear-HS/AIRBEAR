@@ -133,7 +133,7 @@ function Header() {
                 <Link to="/recruiting">채용 일정</Link>
               </li>
               <li>
-                <Link to="/test">시험 일정</Link>
+                <Link to="/Exam">시험 일정</Link>
               </li>
             </ul>
           </nav>
