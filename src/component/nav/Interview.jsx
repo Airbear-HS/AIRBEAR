@@ -83,7 +83,9 @@ const Interview = () => {
     },
     {
       hashtags: [
-        <p>Extra (Examples)</p>,
+        <p>
+          Extra (Examples)
+        </p> /* 여기에는 예시 답변말고, 그냥 질문 자체가 예시 답변 겸 질문인걸로 할게용 */,
         '#질문 확인하기',
         '#면접관에게 질문하기',
       ],
