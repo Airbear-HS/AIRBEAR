@@ -6,11 +6,11 @@
 }
 
 .advice_1 img {
-  width: 380px;
-  height: 662px;
+  width: 300px;
+  height: 502px;
   flex-shrink: 0;
   border-radius: 30px;
-  margin-left: 30px;
+  margin-left: 10px;
   margin-top: 50px;
 }
 
