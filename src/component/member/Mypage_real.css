@@ -134,3 +134,36 @@
   margin-top: 1px;
   margin-right: 400px;
 }
+
+/*fullcalender*/
+
+.custom-calendar {
+  /* 예제 스타일 */
+  background-color: #fffff;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.custom-event-class {
+  /* 이벤트 스타일 */
+  background-color: #fffff;
+  border-color: #fffff;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.fc .fc-toolbar-title {
+  /* 제목 스타일 */
+  font-size: 24px;
+  color: #00d8ff;
+  font-weight: 500px;
+}
+
+.fc-daygrid-day-number {
+  /* 날짜 번호 스타일 */
+  font-size: 16px;
+  font-weight: 500px;
+  color: #000f75;
+}
